@@ -1,0 +1,19 @@
+//Powershell || C:\Users\acer\Documents\PowerShell
+===> [[Microsoft.PowerShell_profile.ps1]]
+oh-my-posh init pwsh --config 'C:\Users\acer\Documents\PowerShell\aliens.omp.json' | Invoke-Expression
+
+//WindowsPowershell || C:\Users\acer\Documents\WindowsPowerShell
+===> [[Microsoft.PowerShell_profile.ps1]]
+oh-my-posh init pwsh --config 'C:\Users\acer\Documents\WindowsPowerShell\aliens.omp.json' | Invoke-Expression
+
+//clink for CMD || C:\Users\acer\AppData\Local\clink 
+===> [[oh-my-posh.lua]]
+load(io.popen('oh-my-posh init cmd --config C:/Users/acer/Documents/PowerShell/aliens.omp.json'):read("*a"))()
+#load(io.popen('oh-my-posh init cmd --config C:/Users/acer/AppData/Local/Programs/oh-my-posh/themes/aliens.omp.json'):read("*a"))()
+
+//GITBASH || C:\Users\acer 
+===> [[.bashrc]]
+eval "$(oh-my-posh init bash --config C:/Users/acer/Documents/PowerShell/aliens.omp.json)"
+# eval "$(oh-my-posh init bash)" //default
+# eval "$(oh-my-posh init bash --config ~/.my-theme.omp.json)" //example
+# eval "$(oh-my-posh init bash --config C:/Users/acer/AppData/Local/Programs/oh-my-posh/themes/aliens.omp.json)"

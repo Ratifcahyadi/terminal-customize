@@ -1,0 +1,1 @@
+oh-my-posh init pwsh --config 'C:\Users\acer\Documents\PowerShell\aliens.omp.json' | Invoke-Expression
