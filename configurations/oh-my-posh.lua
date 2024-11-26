@@ -1,0 +1,1 @@
+load(io.popen('oh-my-posh init cmd --config C:/Users/acer/Documents/PowerShell/aliens.omp.json'):read("*a"))()

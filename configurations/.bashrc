@@ -1,0 +1,1 @@
+eval "$(oh-my-posh init bash --config C:/Users/acer/Documents/PowerShell/aliens.omp.json)"
